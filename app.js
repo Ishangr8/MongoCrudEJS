@@ -9,7 +9,7 @@ const app = express();
 app.use(express.static('static'));
 
 //db connection
-const url = "mongodb://127.0.0.1:27017/mongocrudtask2";
+const url = "mongodb+srv://ishan10086:ishan@cluster0.t6oh9fd.mongodb.net/mongocrudtask";
 mongoose
     .connect(url)
     .then(res => console.log("Database Connected"))
